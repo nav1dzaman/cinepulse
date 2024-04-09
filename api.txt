@@ -1,0 +1,5 @@
+9badf52aa9b258610b366cee54589d3c
+
+https://api.themoviedb.org/3/movie/1011985?api_key=9badf52aa9b258610b366cee54589d3c
+
+  const image = `https://image.tmdb.org/t/p/w500${dataa.poster_path}`;
