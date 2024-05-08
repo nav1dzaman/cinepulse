@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import { Movieprovider } from "./context/MovieContext.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     
@@ -11,8 +12,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   
     <React.StrictMode>
         <ScrollToTop/>
-        
-      <App />
+        <Movieprovider>
+        <App />
+        </Movieprovider>
+     
      
     </React.StrictMode>
   </BrowserRouter>
